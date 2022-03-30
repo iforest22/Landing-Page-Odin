@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+.one, .footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
