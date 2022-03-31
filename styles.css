@@ -1,5 +1,8 @@
 body {
     font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 .one, .footer {
@@ -15,6 +18,9 @@ body {
 .header {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero p {
@@ -46,12 +52,6 @@ h2 {
 
 .three {
     background-color: #E5E7EB;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .one {
@@ -90,3 +90,11 @@ h2 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    color: white;
+}
