@@ -3,6 +3,8 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .one, .footer {
@@ -44,18 +46,51 @@ h2 {
 }
 
 .four {
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    padding: 100px
+    padding: 100px;
+    color: white;
+}
+
+.four div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    -ms-flex-align: center;
+}
+
+.four div button {
+    height: 100%;
+}
+
+.four div {
+    display: flex;
+    align-items: center;
 }
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center; 
+    width: 100%;
+}
+
+.q1{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 50px 0px 0px;
+}
+
+.q2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 50px
+    
 }
 
 .one {
-    padding: 0px 100px 100px 100px;
+    padding: 0px 200px 100px 200px;
 }
 
 .two img, .two p {
@@ -97,4 +132,13 @@ a {
 
 .footer{
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header div {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
