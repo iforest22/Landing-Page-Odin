@@ -38,8 +38,55 @@ h2 {
 }
 
 .four {
-    background-color: #E5E7EB;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    padding: 100px
 }
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one {
+    padding: 0px 100px 100px 100px;
+}
+
+.two img, .two p {
+    max-width: 150px;
+}
+
+
+.hero img {
+    max-height: 300px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero div {
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
