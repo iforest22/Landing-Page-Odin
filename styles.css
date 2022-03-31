@@ -11,3 +11,35 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.four div, button {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.four {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
